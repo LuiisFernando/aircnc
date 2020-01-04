@@ -8,7 +8,7 @@ The backend was developed with NodeJS and express, using multer to upload of fil
 # frontend
 
 <p align="center">
-  <img width="180" height="380" src="https://i.imgsafe.org/0c/0c74ad3a5d.png">
-  <img width="180" height="380" src="https://i.imgsafe.org/0c/0c7ab9fc58.png">
-  <img width="180" height="380" src="https://i.imgsafe.org/0c/0c7ae5cdd6.png">
+  <img width="1916" height="949" src="https://i.imgsafe.org/0c/0c74ad3a5d.png">
+  <img width="1916" height="949" src="https://i.imgsafe.org/0c/0c7ab9fc58.png">
+  <img width="1916" height="949" src="https://i.imgsafe.org/0c/0c7ae5cdd6.png">
 </p>
