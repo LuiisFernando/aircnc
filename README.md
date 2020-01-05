@@ -1,18 +1,18 @@
 # aircnc
 
-  Aircnc is an app to booking spots by technologies.
+  Aircnc (CnC = Code & Coffee) is an app to booking spots by technologies.
 
 # backend
 
 <p>
-  the backend was developed in nodejs using express, mongoose, cors and multer.
+  the backend was developed in NodeJS using the libs express, mongoose, cors, multer and socket.io.
   To storage, MongoDB.
 </p>
 
 # frontend
 
 <p>
-  the frontend was developed in ReactJS using axios and react-router-dom.
+  the frontend was developed in ReactJS using axios, react-router-dom and socket.io-client.
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 # mobile
 
 <p>
-  the app mobile was developed in react-native using react-navigation,  react-native-gesture-handler and react-native-reanimated.
+  the app mobile was developed in react-native using react-navigation,  react-native-gesture-handler, react-native-reanimated and socket.io-client.
 </p>
 
 <p align="center">
