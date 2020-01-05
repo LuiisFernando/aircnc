@@ -12,7 +12,7 @@
 # frontend
 
 <p>
-  the frontend was developed in ReactJS using axios, react-router-dom and socket.io-client.
+  the frontend was developed in ReactJS using the libs axios, react-router-dom and socket.io-client.
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 # mobile
 
 <p>
-  the app mobile was developed in react-native using axios, react-navigation,  react-native-gesture-handler, react-native-reanimated and socket.io-client.
+  the app mobile was developed in react-native using the libs axios, react-navigation,  react-native-gesture-handler, react-native-reanimated and socket.io-client.
 </p>
 
 <p align="center">
