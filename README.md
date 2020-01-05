@@ -25,7 +25,7 @@
 # mobile
 
 <p>
-  the app mobile was developed in react-native using react-navigation,  react-native-gesture-handler, react-native-reanimated and socket.io-client.
+  the app mobile was developed in react-native using axios, react-navigation,  react-native-gesture-handler, react-native-reanimated and socket.io-client.
 </p>
 
 <p align="center">
