@@ -6,8 +6,11 @@ import {
     TouchableOpacity,
     ScrollView,
     AsyncStorage,
+    Alert,
     StyleSheet
 } from 'react-native';
+
+import socketio from 'socket.io-client';
 
 import SpotList from '../components/SpotList';
 
@@ -15,6 +18,19 @@ import logo from '../assets/logo.png';
 
 export default function List({ navigation }) {
     const [techs, setTechs] = useState([]);
+
+
+    useEffect(() => {
+        AsyncStorage.getItem('user').then(user_id => {
+            const socket = socketio('http://10.0.2.2:3333', {
+                query: { user_id }
+            });
+
+            socket.on('booking_response', booking => {
+                Alert.alert(`Your book on ${booking.spot.company} in ${booking.date} was ${booking.approved ? 'APPROVED' : 'REJECTED'}`);
+            })
+        })
+    }, []);
 
     useEffect(() => {
         AsyncStorage.getItem('techs').then(storagedTechs => {
