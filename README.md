@@ -1,11 +1,19 @@
 # aircnc
 
-Aircnc is an app to booking spots by technology.
+  Aircnc is an app to booking spots by technologies.
 
-The backend was developed with NodeJS and express, using multer to upload of files and mongoose to manager the connection with MongoDB
+# backend
 
+<p>
+  the backend was developed in nodejs using express, mongoose, cors and multer.
+  To storage, MongoDB.
+</p>
 
 # frontend
+
+<p>
+  the frontend was developed in ReactJS using axios and react-router-dom.
+</p>
 
 <p align="center">
   <img width="850" height="421" src="https://i.imgsafe.org/0c/0c9f1bd573.png">
@@ -15,6 +23,10 @@ The backend was developed with NodeJS and express, using multer to upload of fil
 
 
 # mobile
+
+<p>
+  the app mobile was developed in react-native using react-navigation,  react-native-gesture-handler and react-native-reanimated.
+</p>
 
 <p align="center">
   <img width="180" height="380" src="https://i.imgsafe.org/0f/0ff1e47fd9.png">
