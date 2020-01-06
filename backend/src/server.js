@@ -24,8 +24,6 @@ mongoose.connect(process.env.MONGO_URL, {
 const connectedUsers = {};
 
 io.on('connection', socket => {
-    console.log(socket.handshake.query);
-    console.log('Usuário conectado, ', socket.id);
 
     const { user_id } = socket.handshake.query;
 
