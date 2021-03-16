@@ -6,7 +6,6 @@
 
 <p>
   the backend was developed in NodeJS using the libs express, mongoose, cors, multer and socket.io.
-  To storage, MongoDB.
 </p>
 
 # frontend
